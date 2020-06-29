@@ -18,4 +18,4 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

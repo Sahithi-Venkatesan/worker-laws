@@ -46,6 +46,22 @@
     </div>
   </div>
 </div>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Law:</th>
+      <th scope="col">Year:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of filterData | filter:term">
+      <td>{{item.lawName}}</td>
+      <td>{{item.year}}</td>
+    </tr>
+  </tbody>
+</table>
   
 <div class="container">
   <div class="row">

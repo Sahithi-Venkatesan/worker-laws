@@ -1,18 +1,1 @@
 .hide-me[aria-expanded="true"] {display: none;}
-
-
-#results
-{
-  color: black;
-  width: 100%;
-  text-align: center;
-  text-decoration:none;
-}
-
-#results:hover
-{
-  background-color: #b2e8f5;
-  text-decoration: none;
-  color: black;
-}
-
